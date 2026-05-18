@@ -1,6 +1,7 @@
 import { Shield, BookOpen } from 'lucide-react'
 import Resumen from './componentes/Resumen'
 import Marco from "./componentes/Marco"
+import Delitos from "./componentes/Delitos";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         </div>
         <Resumen/>
         <Marco />
+        <Delitos/>
       </main>
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
