@@ -1,0 +1,14 @@
+# Resumen Ejecutivo: Brecha de Seguridad de Dropbox (2012)
+
+### 1. ¿Qué pasó?
+En el año 2012, la plataforma de almacenamiento en la nube Dropbox sufrió una intrusión no autorizada en su infraestructura informática corporativa. Un grupo de atacantes informáticos logró eludir los mecanismos de autenticación perimetral y acceder a la red interna de la compañía. El vector de ataque inicial no se debió a un exploit de día cero (zero-day) o a una vulnerabilidad técnica directa en el software de Dropbox, sino a un fallo de seguridad operacional: la reutilización de credenciales por parte de un empleado de la empresa. Dicho colaborador había utilizado la misma contraseña de su cuenta corporativa en la red social profesional LinkedIn, la cual sufrió una filtración masiva de datos a principios de ese mismo año. Los atacantes obtuvieron las credenciales filtradas de LinkedIn, realizaron un ataque de relleno de credenciales (credential stuffing) contra los accesos remotos (VPN) de Dropbox y consiguieron acceso total a la red interna.
+
+### 2. ¿Cuándo pasó y quiénes participaron?
+El incidente ocurrió originalmente en el año 2012. Sin embargo, la magnitud real y los detalles técnicos de la brecha no fueron totalmente transparentes ni conocidos por el público general y los usuarios afectados hasta agosto de 2016, cuando la base de datos robada comenzó a comercializarse en foros de la Dark Web. En el incidente participaron un empleado negligente (cuyas credenciales fueron el vector de entrada), el equipo de ingenieros de seguridad de Dropbox (quienes detectaron anomalías con posterioridad) y un grupo de cibercriminales no identificados formalmente en ese momento, asociados a la compraventa de información confidencial a gran escala.
+
+### 3. Impacto y Alcance
+El impacto de esta brecha de seguridad fue masivo y global. Los atacantes lograron extraer un archivo de respaldo que contenía una base de datos con los registros de **68.680.741 usuarios** únicos de Dropbox. La información comprometida incluía:
+* Direcciones de correo electrónico asociadas a las cuentas.
+* Contraseñas protegidas mediante funciones hash criptográficas (aproximadamente 32 millones de registros protegidos con la función robusta *bcrypt* y el resto con *SHA-1* modificado con *salt*).
+
+A pesar de que las contraseñas contaban con cifrado hash, la exposición de los correos electrónicos facilitó campañas posteriores de phishing dirigido y ataques de fuerza bruta en otros servicios de internet debido al hábito de los usuarios de reutilizar contraseñas, dañando severamente la reputación y credibilidad de Dropbox en el mercado corporativo.

@@ -1,0 +1,11 @@
+# Tabla Comparativa de Marcos Regulatorios por Industria
+
+A continuación, se presenta una comparación analítica entre tres marcos de control aplicables al escenario corporativo y tecnológico de almacenamiento de datos:
+
+| Eje de Comparación | Ley N° 19.628 (Protección de Datos - Chile) | GDPR (Reglamento General UE 2016/679) | Ley N° 21.459 (Delitos Informáticos - Chile) |
+| :--- | :--- | :--- | :--- |
+| **Alcance y Enfoque** | Regula la protección y tratamiento de datos personales por parte de entidades públicas o privadas dentro del territorio nacional chileno. | Regula la privacidad, derechos y protección de datos personales de ciudadanos de la UE, con aplicación global extraterritorial. | Define y sanciona penalmente las conductas delictivas dirigidas contra sistemas informáticos y datos digitales. |
+| **Sanciones y Multas** | Multas económicas bajas en su esquema actual (UTM), sin perjuicio de la indemnización por daño moral en tribunales civiles. | Multas administrativas severas de hasta 20 millones de Euros o el 4% del volumen de negocio total anual global del ejercicio anterior. | Penas privativas de libertad (presidio menor o medio) y multas a beneficio fiscal según la gravedad del delito informático. |
+| **Jurisdicción** | Nacional (Territorio de la República de Chile). | Extraterritorial (Aplica a cualquier empresa del mundo si procesa datos de personas ubicadas en la Unión Europea). | Nacional (Tribunales de Garantía y Penales del Estado de Chile). |
+| **Sujeto Regulado** | El Responsable del Registro o Banco de Datos (en este caso, Dropbox como custodio). | El Responsable del Tratamiento y el Encargado del Tratamiento de Datos a nivel global. | El sujeto activo (cibercriminal o hacker) que ejecuta la acción típica descrita en la ley. |
+| **Aplicabilidad al Caso Dropbox** | **Alta:** Aplica directamente a Dropbox por la pérdida de confidencialidad de los correos de sus usuarios chilenos registrados. | **Crítica:** Obligaría a Dropbox a reportar el incidente en menos de 72 horas bajo amenaza de quiebra corporativa por multas. | **Directa:** Permite perseguir penalmente en Chile a los atacantes informáticos si fuesen capturados dentro del territorio nacional. |

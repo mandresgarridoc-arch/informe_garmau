@@ -1,0 +1,15 @@
+# Marco Normativo Nacional e Internacional Aplicable
+
+Para evaluar legalmente este incidente bajo un estándar riguroso, se analiza el caso de Dropbox (2012) aplicando un escenario hipotético bajo la legislación chilena actual y el marco internacional vigente.
+
+### 1. Detalle de las Normas Aplicables
+1.  **Ley N° 21.459 (Chile):** Dicta normas sobre delitos informáticos y deroga la antigua Ley N° 19.223. Establece las figuras penales relacionadas con el sabotaje, acceso ilícito y la receptación de datos informáticos.
+2.  **Ley N° 19.628 (Chile):** Regula la protección de la vida privada y el tratamiento de los datos de carácter personal en organismos públicos y privados.
+3.  **Reglamento General de Protección de Datos - GDPR (Unión Europea, Reglamento 2016/679):** Marco normativo internacional de obligado cumplimiento para cualquier empresa global que trate datos de ciudadanos de la Unión Europea, el cual impone duras sanciones y plazos estrictos de notificación de brechas.
+4.  **Estándar de Seguridad ISO/IEC 27001 (Internacional):** Norma internacional que define los requisitos para un Sistema de Gestión de la Seguridad de la Información (SGSI), enfocándose en la mitigación de riesgos operacionales y humanos.
+
+### 2. Justificación de Aplicabilidad con Hechos del Caso
+
+* **Justificación de la Ley N° 21.459 (Hecho Concreto):** Esta ley es plenamente aplicable debido al método de intrusión utilizado. Los atacantes emplearon credenciales corporativas robadas de LinkedIn para vulnerar la VPN de la empresa. El hecho de ingresar deliberadamente a un entorno restringido, burlando las barreras informáticas sin la voluntad de Dropbox, constituye de manera inequívoca una violación a los accesos informáticos corporativos protegidos.
+* **Justificación de la Ley N° 19.628 (Hecho Concreto):** Aplica de forma directa dado que el resultado de la intrusión fue la extracción ilegal de un archivo con **68,6 millones de correos electrónicos**. El correo electrónico es considerado un "dato de carácter personal" según la normativa chilena, ya que permite identificar de forma unívoca a una persona natural. Dropbox, en su rol de responsable del banco de datos, falló en su obligación legal de resguardar y garantizar la confidencialidad de la información de sus usuarios.
+* **Justificación del Reglamento General de Protección de Datos - GDPR (Hecho Concreto):** Aunque el ataque se consumó antes de la entrada en vigor del GDPR en 2018, si este incidente ocurriera hoy, Dropbox estaría obligada a aplicarlo de forma extraterritorial porque entre los 68 millones de afectados había millones de ciudadanos europeos. Específicamente, el hecho de que Dropbox **ocultara o retrasara la confirmación de la magnitud de la brecha desde 2012 hasta 2016** violaría el artículo 33 del GDPR, que exige reportar cualquier brecha a la autoridad de control en un plazo máximo de 72 horas tras ser detectada.
