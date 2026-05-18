@@ -3,6 +3,8 @@ import Resumen from './componentes/Resumen'
 import Marco from "./componentes/Marco"
 import Delitos from "./componentes/Delitos"
 import Comparacion from './componentes/Comparacion'
+import Responsabilidades from './componentes/Responsabilidades'
+import Datos from './componentes/Datos'
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Marco />
         <Delitos/>
         <Comparacion/>
+        <Responsabilidades/>
+        <Datos/>
       </main>
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
