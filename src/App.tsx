@@ -5,6 +5,7 @@ import Delitos from "./componentes/Delitos"
 import Comparacion from './componentes/Comparacion'
 import Responsabilidades from './componentes/Responsabilidades'
 import Datos from './componentes/Datos'
+import Conclusiones from './componentes/Conclusiones'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Comparacion/>
         <Responsabilidades/>
         <Datos/>
+        <Conclusiones/>
       </main>
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
