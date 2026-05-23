@@ -2,10 +2,10 @@ import { Table } from "lucide-react";
 
 function Comparacion() {
   return (
-    <div className="bg-white rounded-lg shadow p-8 mb-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
       <div className="flex items-center gap-3 mb-6">
         <Table className="text-blue-600" size={28} />
-        <h2 className="text-2xl font-bold text-slate-800">
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
           Comparación de Marcos Regulatorios
         </h2>
       </div>
