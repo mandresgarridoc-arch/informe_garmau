@@ -15,7 +15,7 @@ function Responsabilidades() {
         {/* Fila 1: El Atacante (Acento Rojo/Rose) */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-rose-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(243,24,113,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-rose-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-rose-900/20 transition-colors">
-            <span className="text-xs font-mono text-rose-500/70 uppercase tracking-widest mb-1">Actor_01</span>
+            
             <h3 className="text-xl font-bold text-rose-400 group-hover:text-rose-300 transition-colors">El Atacante</h3>
           </div>
           <div className="md:w-3/4 p-6 grid sm:grid-cols-2 gap-6">
@@ -33,7 +33,7 @@ function Responsabilidades() {
         {/* Fila 2: Dropbox (Acento Cyan) */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-cyan-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(34,211,238,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-cyan-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-cyan-900/20 transition-colors">
-            <span className="text-xs font-mono text-cyan-500/70 uppercase tracking-widest mb-1">Actor_02</span>
+            
             <h3 className="text-xl font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors">Dropbox</h3>
           </div>
           <div className="md:w-3/4 p-6 grid sm:grid-cols-2 gap-6">
@@ -51,7 +51,7 @@ function Responsabilidades() {
         {/* Fila 3: El Empleado (Acento Morado) */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-purple-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(168,85,247,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-purple-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-purple-900/20 transition-colors">
-            <span className="text-xs font-mono text-purple-500/70 uppercase tracking-widest mb-1">Actor_03</span>
+            
             <h3 className="text-xl font-bold text-purple-400 group-hover:text-purple-300 transition-colors">El Empleado</h3>
           </div>
           <div className="md:w-3/4 p-6 grid sm:grid-cols-2 gap-6">

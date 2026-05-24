@@ -45,9 +45,8 @@ function Resumen() {
               className="relative rounded-lg border border-slate-700 w-full h-auto object-cover shadow-xl"
             />
           </div>
-          <p className="text-xs text-center text-cyan-600/60 mt-3 font-mono tracking-widest uppercase">
-            &gt; Evidencia_01.jpg
-          </p>
+           
+          
         </div>
 
       </div>

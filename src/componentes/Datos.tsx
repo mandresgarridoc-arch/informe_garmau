@@ -16,7 +16,7 @@ function Datos() {
         {/* Fila 1: Tipos de Datos (TEXTO ORIGINAL RESTAURADO) */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-emerald-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(16,185,129,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-emerald-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-emerald-900/20 transition-colors">
-            <span className="text-xs font-mono text-emerald-500/70 uppercase tracking-widest mb-1">Sección 1</span>
+            
             <h3 className="text-lg font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors leading-tight">
               1. Tipos de Datos y Clasificación Legal
             </h3>
@@ -39,7 +39,7 @@ function Datos() {
         {/* Fila 2: ARCO 1 */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-emerald-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(16,185,129,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-emerald-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-emerald-900/20 transition-colors">
-            <span className="text-xs font-mono text-emerald-500/70 uppercase tracking-widest mb-1">Derecho_01</span>
+            
             <h3 className="text-xl font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">Acceso</h3>
           </div>
           <div className="md:w-3/4 p-6">
@@ -51,7 +51,7 @@ function Datos() {
         {/* Fila 3: ARCO 2 */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-emerald-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(16,185,129,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-emerald-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-emerald-900/20 transition-colors">
-            <span className="text-xs font-mono text-emerald-500/70 uppercase tracking-widest mb-1">Derecho_02</span>
+            
             <h3 className="text-xl font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">Cancelación</h3>
           </div>
           <div className="md:w-3/4 p-6">
@@ -63,7 +63,7 @@ function Datos() {
         {/* Fila 4: ARCO 3 */}
         <div className="bg-slate-950/80 rounded-lg border border-slate-800 border-l-2 border-l-emerald-500 hover:bg-slate-800/80 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.3)] group hover:shadow-[inset_4px_0_0_rgba(16,185,129,0.6)] flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/4 bg-emerald-950/20 p-6 flex flex-col justify-center items-start border-b md:border-b-0 md:border-r border-slate-800 group-hover:bg-emerald-900/20 transition-colors">
-            <span className="text-xs font-mono text-emerald-500/70 uppercase tracking-widest mb-1">Derecho_03</span>
+            
             <h3 className="text-xl font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">Oposición</h3>
           </div>
           <div className="md:w-3/4 p-6">
