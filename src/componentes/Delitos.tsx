@@ -2,50 +2,37 @@ import { AlertOctagon } from "lucide-react";
 
 function Delitos() {
   return (
-    <div className="bg-white rounded-lg shadow p-8 mb-8">
-      <div className="flex items-center gap-3 mb-6">
-        <AlertOctagon className="text-red-600" size={28} />
-        <h2 className="text-2xl font-bold text-slate-800">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+      <div className="flex items-center gap-3 mb-6 border-b border-rose-500/20 pb-4">
+        <AlertOctagon className="text-rose-500 drop-shadow-[0_0_8px_rgba(243,24,113,0.6)]" size={28} />
+        <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-orange-400">
           Tipificación de Delitos (Ley N° 21.459)
         </h2>
       </div>
 
-      <div className="space-y-6 text-slate-600 leading-relaxed text-justify">
+      <div className="space-y-6 text-slate-300 leading-relaxed text-justify">
         <p>
-          Si los hechos de la brecha de Dropbox hubieran ocurrido bajo la jurisdicción de la legislación chilena actual, las conductas de los atacantes se encuadrarían en los siguientes delitos penales:
+          Si los hechos hubieran ocurrido bajo jurisdicción chilena actual, las conductas se encuadrarían en:
         </p>
 
         <div className="grid gap-6">
-          {/* Artículo 2 */}
-          <div className="border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow">
-            <h3 className="text-lg font-bold text-slate-800 mb-2">Artículo 2° - Acceso Ilícito</h3>
-            <p className="mb-3">
-              <strong>La Norma:</strong> Sanciona al que, con ánimo de apoderarse, usar o conocer la información contenida en un sistema informático, acceda a él sin autorización, vulnerando las medidas de seguridad.
+          <div className="bg-slate-950/60 border border-slate-800 rounded-lg p-5 hover:border-rose-500/50 transition-colors shadow-inner">
+            <h3 className="text-lg font-bold text-rose-400 mb-2">Artículo 2° - Acceso Ilícito</h3>
+            <p className="mb-3 text-slate-400">
+              <strong className="text-slate-300">La Norma:</strong> Sanciona al que acceda a un sistema informático vulnerando medidas de seguridad.
             </p>
-            <p className="text-sm bg-red-50 p-3 rounded text-red-900 border-l-4 border-red-500">
-              <strong>Mapeo del Caso:</strong> Los cibercriminales utilizaron credenciales de VPN obtenidas ilegítimamente de LinkedIn para ingresar a los repositorios internos de Dropbox, vulnerando el perímetro de control sin autorización.
-            </p>
-          </div>
-
-          {/* Artículo 4 */}
-          <div className="border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow">
-            <h3 className="text-lg font-bold text-slate-800 mb-2">Artículo 4° - Receptación de Datos Informáticos</h3>
-            <p className="mb-3">
-              <strong>La Norma:</strong> Penaliza al que, a sabiendas de su origen ilícito, comercialice, transfiera, almacene o introduzca en un sistema datos provenientes de delitos informáticos.
-            </p>
-            <p className="text-sm bg-red-50 p-3 rounded text-red-900 border-l-4 border-red-500">
-              <strong>Mapeo del Caso:</strong> La base de datos con 68 millones de cuentas fue almacenada y posteriormente puesta a la venta en el mercado negro (Dark Web) en 2016. Toda esta cadena de distribución configura este delito.
+            <p className="text-sm bg-rose-950/30 p-3 rounded text-rose-200 border-l-4 border-rose-600">
+              <strong>Mapeo del Caso:</strong> Los cibercriminales utilizaron credenciales de VPN para ingresar a repositorios internos de Dropbox sin autorización.
             </p>
           </div>
 
-          {/* Artículo 7 */}
-          <div className="border border-slate-200 rounded-lg p-5 hover:shadow-md transition-shadow">
-            <h3 className="text-lg font-bold text-slate-800 mb-2">Artículo 7° - Abuso de Dispositivos</h3>
-            <p className="mb-3">
-              <strong>La Norma:</strong> Sanciona a quien produzca, adquiera o ponga a disposición contraseñas, códigos de acceso o datos similares que permitan acceder a un sistema informático.
+          <div className="bg-slate-950/60 border border-slate-800 rounded-lg p-5 hover:border-rose-500/50 transition-colors shadow-inner">
+            <h3 className="text-lg font-bold text-rose-400 mb-2">Artículo 4° - Receptación de Datos</h3>
+            <p className="mb-3 text-slate-400">
+              <strong className="text-slate-300">La Norma:</strong> Penaliza comercializar o transferir datos provenientes de delitos informáticos.
             </p>
-            <p className="text-sm bg-red-50 p-3 rounded text-red-900 border-l-4 border-red-500">
-              <strong>Mapeo del Caso:</strong> Los atacantes adquirieron el listado de contraseñas filtradas de LinkedIn con el propósito directo de utilizarlas como llaves de acceso en sistemas corporativos de alto valor como Dropbox.
+            <p className="text-sm bg-rose-950/30 p-3 rounded text-rose-200 border-l-4 border-rose-600">
+              <strong>Mapeo del Caso:</strong> La base de datos fue almacenada y puesta a la venta en la Dark Web en 2016.
             </p>
           </div>
         </div>
