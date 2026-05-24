@@ -1,21 +1,59 @@
 # Bitácora de Uso de IA en el Desarrollo
 
-Durante la investigación y el desarrollo de la aplicación web para este informe, se utilizó un asistente de Inteligencia Artificial (Google Gemini) como herramienta de apoyo transversal, tanto para el análisis jurídico documental como para la depuración del código fuente en React. A continuación, se documentan las interacciones principales.
+Durante la investigación y el desarrollo de la aplicación web, se utilizó un chatbot de Inteligencia Artificial (Google Gemini) como asistente de programación e investigación legal. A continuación, se documentan los *prompts* reales utilizados, las correcciones aplicadas a sus respuestas y la justificación académica.
 
-### Interacción 1: Investigación Legal y Tipificación Normativa
-* **Sección del Informe:** Marco Normativo, Delitos y Tratamiento de Datos.
-* **Prompt Utilizado:** *"Actúa como un experto en ciberseguridad y derecho informático chileno. Proporciona una investigación exhaustiva sobre la brecha de datos de Dropbox ocurrida en 2012. El análisis debe incluir la identificación de las normas nacionales e internacionales aplicables (Ley N° 21.459, Ley N° 19.628 y GDPR), la tipificación de los delitos correspondientes, y los derechos ARCO afectados, justificando cada punto con los hechos concretos del caso."*
-* **Corrección y Justificación:** La respuesta inicial proporcionó un resumen adecuado, pero fue necesario aplicar un segundo *prompt* de refinamiento ("Puedes explayarte un poco más para los archivos Markdown") para exigir mayor profundidad en las citas de los artículos específicos de la legislación chilena (ej. Artículos 2°, 4° y 7° de la Ley N° 21.459). Esto se justificó por la necesidad de cumplir con el rigor académico de la rúbrica de evaluación.
+---
 
-### Interacción 2: Depuración de Código (Troubleshooting de Vite y Tailwind CSS)
-* **Sección del Informe:** Estructura global del proyecto React y despliegue local.
-* **Prompt Utilizado (con apoyo visual):** *"Se ha inicializado un proyecto en React con Vite, pero las clases utilitarias de Tailwind CSS no se están aplicando en el navegador. Posteriormente, la terminal arroja el error '[plugin:vite:import-analysis] Failed to resolve import ./components/Resumen from src/App.tsx'. ¿Cuáles son los pasos técnicos para diagnosticar y resolver estos problemas de configuración de estilos y resolución de rutas?"*
-* **Corrección y Justificación:** La IA analizó el error y propuso una lista de verificaciones estructurales. Se aplicó la corrección al identificar que el entorno de desarrollo estaba utilizando TypeScript (`.tsx`) en lugar de JavaScript puro (`.jsx`), y que la carpeta de componentes requería estar estrictamente dentro del directorio `src`. Se reinició el servidor local (`npm run dev`) validando la solución.
+## Interacción 1: Investigación Legal y Normativa
+**Objetivo:** Resumen y Marco Jurídico
 
-### Interacción 3: Gestión de Repositorios y Despliegue Continuo (CI/CD)
-* **Sección del Informe:** Repositorio GitHub y sitio desplegado en Vercel.
-* **Prompt Utilizado:** *"¿Cuál es el flujo de comandos estándar en Git para inicializar un proyecto local, realizar el primer 'commit' y sincronizarlo con un repositorio público en GitHub? Adicionalmente, detalla el procedimiento arquitectónico para enlazar este repositorio con la plataforma Vercel y habilitar el despliegue continuo, permitiendo retomar el trabajo desde distintos equipos informáticos."*
-* **Corrección y Justificación:** La IA entregó la secuencia exacta de comandos. No se requirieron correcciones técnicas sobre la sintaxis de Git, pero se adoptó la recomendación de establecer un ciclo estricto de `git pull` al iniciar la sesión y `git push` al finalizarla, garantizando la integridad del código fuente al alternar entre los laboratorios de la institución y el equipo personal.
+**Prompts Utilizados:**
+> * "Hola Gemini, tengo que hacer un informe sobre ciberseguridad para la universidad. Elegí el caso de Dropbox de 2012. Dame un resumen ejecutivo del hackeo enfocado en cómo consiguieron las credenciales."
+> * "Ahora necesito analizar esto bajo el marco legal chileno. ¿Qué leyes aplican? Mapea las acciones del atacante con la Ley 21.459 de Delitos Informáticos y la Ley 19.628 de Protección de Datos."
+> * "Te quedó muy general. Necesito que te explayes en los artículos exactos (ej: Art. 2° y 4°) y cómo se asignan las responsabilidades civiles y penales para el atacante, Dropbox y el empleado."
 
-### Reflexión Final sobre el uso de la IA
-El uso de asistentes de Inteligencia Artificial demostró ser un catalizador significativo para la eficiencia del proyecto. En el ámbito jurídico, la IA funcionó como un motor de búsqueda semántica avanzado, estructurando rápidamente los escenarios legales hipotéticos bajo la legislación chilena, aunque requirió de validación humana constante para evitar alucinaciones en la tipificación de los artículos. En el ámbito del desarrollo de software, la herramienta brilló en la depuración de errores (*debugging*), traduciendo de manera eficiente los mensajes de error de la terminal y acelerando la construcción modular de la interfaz en React. La principal lección es que la calidad del resultado informático es directamente proporcional a la especificidad técnica del *prompt* ingresado.
+**Corrección y Justificación:**
+Inicialmente, la IA entregó un análisis muy superficial y centrado en leyes de EE.UU. Se le tuvo que corregir con un prompt directivo, forzando la vinculación explícita con artículos específicos del código chileno. Esto permitió cumplir con el nivel de profundidad técnica exigido por la rúbrica.
+
+---
+
+## Interacción 2: Depuración de React y Tailwind CSS
+**Objetivo:** Troubleshooting Web
+
+**Prompts Utilizados:**
+> * "[Captura adjunta] Estoy armando el proyecto con Vite y React, pero al ejecutar 'npm install' la terminal me lanza 'npm no se reconoce como un comando interno'. ¿Cómo soluciono esto en Windows?"
+> * "Me está tirando este error en la consola de Vite: 'Failed to resolve import ./components/Resumen from src/App.tsx'. Ya revisé y el archivo sí existe en la carpeta."
+
+**Corrección y Justificación:**
+La IA fue clave para la depuración (*debugging*). Al analizar el error de las rutas, la IA identificó la discrepancia de nombres de carpetas y extensiones (`.tsx`), guiando la refactorización de la estructura de archivos en React.
+
+---
+
+## Interacción 3: Control de Versiones y Despliegue CI/CD
+**Objetivo:** Git, GitHub & Vercel
+
+**Prompts Utilizados:**
+> * "Hoy trabajé en los equipos del laboratorio de INACAP, pero quiero seguir editando el finde en mi notebook personal. ¿Cómo clono el repo y bajo los cambios sin romper el proyecto de React?"
+> * "Tengo mi repositorio de GitHub al día. Ahora quiero desplegarlo gratis para la evaluación. ¿Cómo conecto el repo a Vercel para que se actualice solo?"
+
+**Corrección y Justificación:**
+Se tuvo que corregir el flujo de trabajo estableciendo como regla obligatoria ejecutar `npm install` justo después del `git clone`, asegurando la sincronización de dependencias antes del despliegue en la plataforma CI/CD (Vercel).
+
+---
+
+## Interacción 4: Refinamiento UX/UI y QA
+**Objetivo:** Calidad y Metadatos
+
+**Prompts Utilizados:**
+> * "En general, ¿crees que haya algo que podamos mejorar en cuanto a diseño visual o experiencia de usuario?"
+> * "Ayúdame a generar un escudo en SVG para usarlo como Favicon en la pestaña del navegador."
+> * "Guardé la imagen en la carpeta public, pero no aparece el cambio en mi web al recargar. ¿Qué hago?"
+
+**Corrección y Justificación:**
+La IA se utilizó en la fase final de Aseguramiento de Calidad (QA) para inyectar CSS global (modificando la scrollbar) y configurar metadatos en `index.html`. Para resolver el problema de persistencia del Favicon, se aplicó la técnica de versionado de caché (`?v=2`), demostrando dominio sobre el comportamiento de los navegadores.
+
+---
+
+## Reflexión Final sobre la IA como Herramienta
+
+El uso de modelos de lenguaje grande (LLMs) demostró ser altamente efectivo para abarcar el ciclo de vida completo del desarrollo: desde la maquetación inicial y el troubleshooting de React, hasta el pulido final de la interfaz de usuario. Sin embargo, en el ámbito legal, la IA exige dirección técnica humana para no generar respuestas genéricas. La experiencia concluye que un LLM no reemplaza el criterio del estudiante; sino que potencia la capacidad de ejecutar un despliegue profesional si se sabe guiar con prompts precisos y validación constante.
