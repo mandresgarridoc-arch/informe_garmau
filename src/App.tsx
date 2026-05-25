@@ -67,7 +67,7 @@ function App() {
             </div>
             
             {/* Las clases flex-row y overflow-x-auto hacen la magia en el celular */}
-            <ul className="flex flex-row md:flex-col overflow-x-auto md:overflow-visible">
+            <ul className="flex flex-row md:flex-col overflow-x-auto md:overflow-visible no-scrollbar">
               {menuItems.map((item) => (
                 <li key={item.id} className="shrink-0 md:shrink">
                   <button
