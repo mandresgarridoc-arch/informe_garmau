@@ -2,7 +2,7 @@ import { Bot, CheckCircle } from "lucide-react";
 
 function Prompts() {
   return (
-    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-5 md:p-8">
       <div className="flex items-center gap-3 mb-8 border-b border-fuchsia-500/20 pb-4">
         <Bot className="text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]" size={32} />
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500">

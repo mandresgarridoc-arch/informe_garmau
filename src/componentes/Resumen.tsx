@@ -3,7 +3,7 @@ import { FileText } from "lucide-react";
 function Resumen() {
   return (
     // Contenedor principal de la tarjeta: Fondo oscuro, borde sutil y desenfoque
-    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-5 md:p-8">
       
       {/* Cabecera de la tarjeta con línea neón */}
       <div className="flex items-center gap-3 mb-6 border-b border-cyan-500/20 pb-4">

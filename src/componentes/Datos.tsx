@@ -2,7 +2,7 @@ import { Database } from "lucide-react";
 
 function Datos() {
   return (
-    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-5 md:p-8">
       {/* TÍTULO PRINCIPAL CORREGIDO CON LA LEY */}
       <div className="flex items-center gap-3 mb-8 border-b border-emerald-500/20 pb-4">
         <Database className="text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]" size={28} />

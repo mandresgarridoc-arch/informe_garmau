@@ -2,14 +2,13 @@ import { Scale } from "lucide-react";
 
 function Marco() {
   return (
-    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-5 md:p-8">
       <div className="flex items-center gap-3 mb-8 border-b border-cyan-500/20 pb-4">
         <Scale className="text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]" size={28} />
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
           Marco Normativo Aplicable
         </h2>
       </div>
-
       <div className="space-y-5">
         <p className="text-slate-300 mb-6">El incidente involucra múltiples dimensiones legales. Nos centraremos en la legislación chilena aplicable, junto con el estándar internacional.</p>
 

@@ -2,7 +2,7 @@ import { AlertOctagon } from "lucide-react";
 
 function Delitos() {
   return (
-    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-8">
+    <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-800 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] p-5 md:p-8">
       <div className="flex items-center gap-3 mb-8 border-b border-rose-500/20 pb-4">
         <AlertOctagon className="text-rose-500 drop-shadow-[0_0_8px_rgba(243,24,113,0.6)]" size={28} />
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-orange-400">
